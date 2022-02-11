@@ -3,7 +3,7 @@
 Este projeto tem por objetivo realizar testes de api utilizando o Ruby com rspec, http-party e cucumber.
 Conforme arquivo [spec/vrpat_spec.rb](https://github.com/GonzagaDevTest/rspec-ruby-http-party-cucumber-vr/blob/main/spec/vrpat_spec.rb) temos um exemplo de como realizar uma requisição do tipo GET na api: https://portal.vr.com.br/api-web/comum/enumerations/VRPAT e printar um objeto aleatório retornado pela Api.
 
-###Explicando o código
+### Explicando o código
 
 ```ruby
 describe 'Desafio de consumir api VRPAT' do
@@ -32,9 +32,9 @@ it 'Consultar todos VRPAT' do
 end
 ```
 
-###Como executar?
+### Como executar?
 
-####Instalando dependências
+#### Instalando dependências
 
 Aprincipal dependencia deste projeto é o ruby, para instala-lo pode ser seguido a documentação: https://www.ruby-lang.org/pt/documentation/installation/
 
@@ -42,10 +42,10 @@ Verifique se o bundler está instalado, caso não esteja execute:
 
 `$ gem install bundler`
 
-Com o ruby e o bundler instalado em sua maquina basta executar o seguinte comando na raiz do projeto:
+Com o ruby e o bundler instalado em sua máquina basta executar o seguinte comando na raiz do projeto:
 
 `$ bundle install`
 
-Com isso será instalada todas as dependencias necessárias para executar o projeto. Para executar basta utilizar o seguinte comando na raiz do projeto:
+Com isso será instalada todas as dependências necessárias para executar o projeto. Para executar basta utilizar o seguinte comando na raiz do projeto:
 
 `$ rspec`
